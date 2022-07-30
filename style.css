@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 900px;
+    margin: 0 auto;
+}
+#canvas1 {
+    height: 600px;
+}
+.controls{
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translate(-65%, -45%);
+}
+.controls, select , option {
+    font-size: 25px;
+}
